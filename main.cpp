@@ -10,9 +10,10 @@ int main(){
         nodespace::node A(2);
         A = 5;
         std::cout<<A.data()<<std::endl;
-        
+     
         nodespace::LList mylist;
         mylist.append(4);
+        mylist.Print();
         mylist.clear();
         // Frequency left to implement
 
