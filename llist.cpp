@@ -154,7 +154,7 @@ const std::size_t LList::getLength()
 	return list_length;
 };
 
-void LList::functionIMadeForPrinting(){
+void LList::Print(){
 	if(list_length == 0)
 		std::cout << "empty" << std::endl;
 	else{
